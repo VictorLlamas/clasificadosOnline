@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import Register from './components/register';
 
 class App extends Component {
-  render() {
+    render() {
     return (
-      <div className="App">
-        <h1>Hello, React!</h1>
+      <div className="container">
+        <Register />
       </div>
     )
   }
