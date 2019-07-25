@@ -9,3 +9,12 @@ html {
   #app {
     min-height: 100vh;
   }
+
+  .container{
+    display: flexbox;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import NotFound from './components/notFound/'
+import Header from './components/header/'
 class App extends Component {
     render() {
     return (
-      <div className="container">
-        <NotFound />
+      <div>
+        <Header />
       </div>
     )
   }
