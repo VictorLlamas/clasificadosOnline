@@ -80,7 +80,7 @@ class Register extends Component {
                 <Form.Group controlId="formBasicUser">
                     <Form.Label htmlFor="email">Email</Form.Label>
                     <Form.Control type="email" placeholder="Introduce Email" name="email" value={email} onChange={this.handleChange}/>
-                    <Form.Text className="text-muted"> We'll never share your email with anyone else.</Form.Text>  
+                    <Form.Text className="text-muted"> Nunca Compartiremos tu correo con alguien mas.</Form.Text>  
                 </Form.Group> 
                 <Form.Group controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
