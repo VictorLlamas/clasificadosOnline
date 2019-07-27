@@ -18,3 +18,8 @@ html {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .supidc {  
+    vertical-align:super;  
+    font-size:9pt;
+  }
