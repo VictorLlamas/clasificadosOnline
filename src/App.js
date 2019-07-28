@@ -5,12 +5,13 @@ import Header from './components/header/'
 import Homepage from './components/homepage/'
 import Filter from './components/filters/'
 import ResultCard from './components/resultCard/'
+import PhotoCarousel from './components/photoCarousel/'
 
 class App extends Component {
     render() {
     return (
       <div>
-        <ResultCard />
+        <PhotoCarousel />
       </div>
     )
   }
