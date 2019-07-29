@@ -67,7 +67,7 @@ class Filter extends Component{
                 <label>Superficie</label>
                 {['Terreno', 'Construccion'].map((features)=>(
                     <div>
-                        <label>{features} <span className="supidc">(m2)</span></label>
+                        <label>{features} <span><sup>(m2)</sup></span></label>
                         <div className="row">
                             <div className="col">
                                 <select className="form-control">
