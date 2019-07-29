@@ -1,22 +1,25 @@
 import React, { Component } from 'react'
-import Register from './components/register/'
-import Signin from './components/signin/'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './components/header/'
-import Homepage from './components/homepage/'
-import Filter from './components/filters/'
-import ResultCard from './components/resultCard/'
-import PhotoCarousel from './components/photoCarousel/'
-import PageHeader from './components/pageHeader/'
-import DescriptionProperty from './components/descriptionProperty/'
+import Signin from './Signin'
+import Homepage from './Home'
+import About from './About'
+import Notfound from './components/notFound'
 
 class App extends Component {
     render() {
     return (
-      <div>
-        <PageHeader />
-        <DescriptionProperty />
-
-      </div>
+      <React.Fragment>
+        <Router>
+          <Header/>
+          <Switch>
+            <Route exact path='/' component={Homepage} />
+            <Route path='/signin' component={Signin} />
+            <Route path='/about' component={About} />
+            <Route component={Notfound} />
+          </Switch>  
+        </Router>
+      </React.Fragment>
     )
   }
 }
