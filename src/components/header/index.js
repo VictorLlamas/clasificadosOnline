@@ -1,31 +1,29 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
-function Header(){
-    return(
-        <Navbar collapseOnSelect bg="light" expand="sm" fixed='top'>
-            <Navbar.Brand href="#home">Clasificados Online</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav>
-                    <NavItem> 
-                        <Nav.Link href="#buy">Comprar</Nav.Link>
-                    </NavItem>
-                    <NavItem>
-                        <Nav.Link href="#rent">Rentar</Nav.Link>
-                    </NavItem>
-                    <NavItem>
-                        <Nav.Link href="#sell">Vender</Nav.Link>
-                    </NavItem>
-                </Nav>
-            </Navbar.Collapse>
-            <Nav className="justify-content-end">
-                <Nav.Link href="#login">Entrar</Nav.Link>
-                <Nav.Link href="#help">Ayuda</Nav.Link>
-            </Nav>
-        </Navbar>
-        
-    )
+class CustomNavBar extends Component{
+    render(){
+        return(
+            <Navbar collapseOnSelect expand="sm" fixed='top'>
+               <Navbar.Brand href="/"> Clasificados Online </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                        <NavItem className="fix-links-headers"> 
+                            <Link to="/">Home</Link>
+                        </NavItem>
+                        <NavItem className="fix-links-headers">   
+                            <Link to="/signin">Entrar</Link>
+                        </NavItem>
+                        <NavItem className="fix-links-headers"> 
+                            <Link to="/about">About</Link>
+                        </NavItem>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar> 
+        )
+    }
 }
 
-export default Header
+export default CustomNavBar

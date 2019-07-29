@@ -10,16 +10,16 @@ html {
     min-height: 100vh;
   }
 
-  .container{
-    display: flexbox;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  .divCenterScreen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
 
-  .supidc {  
-    vertical-align:super;  
-    font-size:9pt;
+  .fix-links-headers{
+    padding: 15px;
+    display: inline-block;
+    line-height: 20px;
   }
