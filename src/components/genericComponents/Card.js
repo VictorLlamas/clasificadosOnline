@@ -21,7 +21,7 @@ class ResultCard extends Component{
     render(){
         return(
             <div className="card" style={{width:'18rem'}}>
-                <img className="card-img-top" src={this.state.imgPath} alt="Card image cap"/>
+                <img className="card-img-top" src={this.state.imgPath} alt="Card cap"/>
                 <div className="card-body">
                     <h5 className="card-title">{this.state.title}</h5>
                     <h6 class="card-subtitle mb-3 text-muted">{this.state.location}</h6>

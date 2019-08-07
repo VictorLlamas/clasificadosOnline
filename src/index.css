@@ -23,3 +23,11 @@ html {
     display: inline-block;
     line-height: 20px;
   }
+
+  .homeTop {
+    margin-top: 7%!important;
+  }
+
+  .btn-toolbar{
+    margin-bottom: 1.5em;
+  }

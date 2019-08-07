@@ -23,35 +23,35 @@ class DescriptionProperty extends Component{
         return(
             <div className="container">
                 <div>
-                    <h3> Descripción</h3>
+                    <h3> Description</h3>
                     <div>
                         <p>{this.state.description}</p>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <h3> Características</h3>
+                        <h3> Characteristics</h3>
                         <p>
                             <Rooms/>
-                            <label>{this.state.rooms} Recamaras</label>
+                            <label>{this.state.rooms} rooms</label>
                         </p>
                         <p>
                             <Bathrooms/>
-                            <label>{this.state.bathrooms} Baños</label>
+                            <label>{this.state.bathrooms} bathrooms</label>
                         </p>
                         <p>
                             <Levels/>
-                            <label>{this.state.levels} Niveles</label>
+                            <label>{this.state.levels} Levels</label>
                         </p>
                         <p>
                             <ParkingLots/>
-                            <label>{this.state.rooms} Espacios de estacionamiento</label>
+                            <label>{this.state.rooms} parking spaces</label>
                         </p>
                         <p>
-                            <label>{this.state.land} m<sup>2</sup> de Terreno</label>
+                            <label>{this.state.land} m<sup>2</sup> land</label>
                         </p>
                         <p>
-                            <label>{this.state.construction} m<sup>2</sup> de Construcción</label>
+                            <label>{this.state.construction} m<sup>2</sup> construction</label>
                         </p>
                     </div>
                 </div>
