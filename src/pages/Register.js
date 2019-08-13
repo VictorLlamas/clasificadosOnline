@@ -7,10 +7,10 @@ class Register extends Component {
     constructor(props){
         super(props)
         this.initialState = {
-            email: '',
-            password: '',
             name: '',
             surname: '',
+            email: '',
+            password: '',
             birthday: '',
             telephone: '',
             celphone: '',
