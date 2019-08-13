@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/clasificadosOnline/static/css/main.33fe8dab.chunk.css",
+    "main.js": "/clasificadosOnline/static/js/main.6a2212c0.chunk.js",
+    "main.js.map": "/clasificadosOnline/static/js/main.6a2212c0.chunk.js.map",
+    "runtime~main.js": "/clasificadosOnline/static/js/runtime~main.566b5c0e.js",
+    "runtime~main.js.map": "/clasificadosOnline/static/js/runtime~main.566b5c0e.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/clasificadosOnline/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.b4892f28.chunk.js": "/clasificadosOnline/static/js/2.b4892f28.chunk.js",
+    "static/js/2.b4892f28.chunk.js.map": "/clasificadosOnline/static/js/2.b4892f28.chunk.js.map",
+    "index.html": "/clasificadosOnline/index.html",
+    "precache-manifest.ca7c7f53812adaa8741fc7e9d6ffc4ff.js": "/clasificadosOnline/precache-manifest.ca7c7f53812adaa8741fc7e9d6ffc4ff.js",
+    "service-worker.js": "/clasificadosOnline/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/clasificadosOnline/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.33fe8dab.chunk.css.map": "/clasificadosOnline/static/css/main.33fe8dab.chunk.css.map",
+    "static/media/test.jpg": "/clasificadosOnline/static/media/test.5748d930.jpg"
+  }
+}
