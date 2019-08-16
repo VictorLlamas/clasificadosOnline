@@ -1,6 +1,6 @@
 import queryString from 'query-string'
 //const BASE_URL = 'http://localhost:4000/'
-const BASE_URL = 'https://clasificados-online.herokuapp.com'
+const BASE_URL = 'https://clasificados-online.herokuapp.com/'
 const token = localStorage.getItem('token')
 
 export function findAds(params){
