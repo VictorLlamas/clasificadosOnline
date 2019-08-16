@@ -24,25 +24,23 @@ function ViewAds(props) {
                         </div>
                     </div>
                 </div>
-                <div className="container">
-                            <div id="carouselControls" className="carousel slide" data-ride="carousel">
-                                <div className="carousel-inner">
-                                        {data.images.map((image,key) => (
-                                            <div className="carousel-item"> 
-                                                <img key={key} src={image} className="d-block w-100" alt={`property${key}`}/>
-                                            </div>
-                                        ))}
+                <div id="carouselControls" className="carousel slide" data-ride="carousel">
+                    <div className="carousel-inner">
+                            {data.images.map((image,key) => (
+                                <div key={key} className="carousel-item"> 
+                                    <img key={key} src={image} className="d-block w-100" alt={`property${key}`}/>
                                 </div>
-                                <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="sr-only">Previous</span>
-                                </a>
-                                <a className="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="sr-only">Next</span>
-                                </a>
-                            </div>
-                </div>     
+                            ))}
+                    </div>
+                    <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
+                    </a>
+                </div>   
                 <div className="container">
                     <div>
                         <h3> Descripcion</h3>
