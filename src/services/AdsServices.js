@@ -10,7 +10,7 @@ export function findAds(params){
         search = {
             address: state.search,
             neighborhood: state.search,
-            municipality: state.search,
+            city: state.search,
             zipCode: +state.search,
             transactionType: state.transactionType
         }
@@ -18,7 +18,7 @@ export function findAds(params){
         search = {
          address: state.search,
          neighborhood: state.search,
-         municipality: state.search,
+         city: state.search,
          zipCode: 0,
          transactionType: state.transactionType
         }
