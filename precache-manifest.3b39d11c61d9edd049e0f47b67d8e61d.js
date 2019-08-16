@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a80f9e3ed44907880a0b0fd08acc5af8",
+    "revision": "8a571f8969452441ffb305dc3b74ce78",
     "url": "/clasificadosOnline/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clasificadosOnline/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "bd902184d4f817eec7c0",
+    "revision": "549336e82a6844cb53db",
     "url": "/clasificadosOnline/static/css/main.1660e454.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clasificadosOnline/static/js/2.d6a20977.chunk.js"
   },
   {
-    "revision": "bd902184d4f817eec7c0",
-    "url": "/clasificadosOnline/static/js/main.dee8e761.chunk.js"
+    "revision": "549336e82a6844cb53db",
+    "url": "/clasificadosOnline/static/js/main.5477da13.chunk.js"
   },
   {
     "revision": "363f77ad97c2e13c0035",
