@@ -15,10 +15,9 @@ class About extends Component {
                             <h5 className="card-title">Clasificados Online</h5>
                             <p className="card-text">Version 0.1</p>
                             <p>
-                                Online Classifieds offers you the widest range of means to market your properties, 
-                                products and services in the most efficient way in the market, since they are 
-                                strategically aimed at a sector interested in acquiring a property to live, rent
-                                or as an investment.
+                            Clasificados Online Casas y Terrenos te ofrece la más amplia gama de medios para que comercialices tus inmuebles,
+                            productos y servicios de la manera más eficiente en el mercado, ya que están estratégicamente dirigidos a un sector
+                            interesado en adquirir una propiedad para vivir, rentar o como inversión.
                             </p>
                         </div>
                     </div>

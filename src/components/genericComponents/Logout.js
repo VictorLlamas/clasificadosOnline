@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom';
 
 const Logout = (props) => {
     return(
-        <a className = "nav-link logout" onClick={
+        <a className = "nav-link logout" href="!#" onClick={
             () => {
                 Auth.logout(() => {
                     props.history.push("/");

@@ -4,32 +4,35 @@ class Filter extends Component{
     render(){
         
         return(
-        <div className="">
+        <div className="container border rounded-lg p-md-4 mt-3">
             <div>
-                <label>Property type</label>
+                <button type="button" className="btn btn-primary btn-sm float-right" >Filtrar</button>
+            </div>
+            <div>
+                <label>Tipo de Propiedad</label>
                 <div >
                     <select id="inputSearch" className="form-control">
-                        <option>all</option>
-                        <option>Departments</option>
-                        <option>Houses</option>
-                        <option>Lands</option>
-                        <option>Officies</option>
-                        <option>Others</option>
+                        <option>Todos</option>
+                        <option>Departmento</option>
+                        <option>Casa</option>
+                        <option>Terreno</option>
+                        <option>Oficina</option>
+                        <option>Otros</option>
                     </select>
                 </div>
             </div>
             <div>
                 <div className="form-check">
-                    <input className="form-check-input" type="radio" name="all" id="all" value="1" checked/>
-                    <label className="form-check-label" htmlFor="all"> All</label>    
+                    <input className="form-check-input" type="radio" name="propertyType" id="all" value="1" defaultChecked/>
+                    <label className="form-check-label" htmlFor="all"> Todos</label>    
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="newDevelop" id="newDevelop" value="2"/>
-                    <label class="form-check-label" htmlFor="newDevelop">New Developments</label>
+                <div className="form-check">
+                    <input className="form-check-input" type="radio" name="propertyType" id="newDevelop" value="2"/>
+                    <label className="form-check-label" htmlFor="newDevelop">Nuevos Desarrollos</label>
                 </div>
             </div>
             <div>
-                <label> Price Range</label>
+                <label> Rango de Precio</label>
             </div>
             <div className="row">
                 <div className="col">
@@ -52,40 +55,32 @@ class Filter extends Component{
                 </div>
             </div>
             <div>
-                <label> Ammenities</label>
+                <label> Amenidades</label>
                     <div>
-                        <label>Rooms</label>
-                            {['1','2','3','4','5'].map(( number ) => (
-                                <div className="form-check form-check-inline">
-                                    <input className="form-check-input" type="radio" name="roomsRadio" id={"roomsRadio"+ number} value={number}/>
-                                    <label className="form-check-label" htmlFor={"roomsRadio"+ number}>{number}</label>
-                                </div> 
+                        <label>Recamaras</label>
+                        <select className="form-control">
+                            {['1', '2', '3', '4','5+'].map((value, index)=>(
+                                <option key={index}>{value}</option>
                             ))}
+                        </select>
+                        <label>Baños</label>
+                        <select className="form-control">
+                            {['1', '1.5', '2', '2.5','3+'].map((value, index)=>(
+                                <option key={index}>{value}</option>
+                            ))}
+                        </select> 
+                        <label>Estacionamiento</label>
+                        <select className="form-control">
+                            {['1', '2', '3', '4','5+'].map((value, index)=>(
+                                <option key={index}>{value}</option>
+                            ))}
+                        </select>
                     </div>
-                    <div>
-                        <label>Bathrooms</label>
-                        {['1','2','3','4','5'].map(( number ) => (
-                            <div className="form-check form-check-inline">
-                                <input className="form-check-input" type="radio" name="bathroomsRadio" id={"bathroomsRadio"+ number} value={number}/>
-                                <label className="form-check-label" htmlFor={"bathroomsRadio"+ number}>{number}</label>
-                            </div> 
-                        ))}
-                    </div>
-                    <div>
-                        <label>Parking</label>
-                        {['1','2','3','4','5'].map(( number ) => (
-                            <div className="form-check form-check-inline">
-                                <input className="form-check-input" type="radio" name="parkingRadio" id={"inlineRadio"+ number} value={number}/>
-                                <label className="form-check-label" htmlFor={"parkingRadio"+ number}>{number}</label>
-                            </div> 
-                        ))}
-                    </div>
-                
             </div>
             <div>
-                <label>Features</label>
+                <label>Superficie</label>
                     <div>
-                        <label>Land<span><sup>(m2)</sup></span></label>
+                        <label>Terreno<span><sup>(m2)</sup></span></label>
                         <div className="row">
                             <div className="col">
                                 <select className="form-control">
@@ -104,7 +99,7 @@ class Filter extends Component{
                         </div>
                     </div>
                     <div>
-                    <label>Construction<span><sup>(m2)</sup></span></label>
+                    <label>Construccion<span><sup>(m2)</sup></span></label>
                     <div className="row">
                         <div className="col">
                             <select className="form-control">

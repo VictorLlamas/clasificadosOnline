@@ -11,7 +11,7 @@ class CustomNavBar extends Component{
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/">Home
-                <span class="sr-only">(current)</span></Link>
+                <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">About</NavLink>
@@ -38,7 +38,7 @@ class CustomNavBar extends Component{
                 <NavLink className="nav-link" to="/about">About</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/login">Sign-in or Join</NavLink>
+                <NavLink className="nav-link" to="/login">Sign-in</NavLink>
               </li>
             </ul>
           ) 
