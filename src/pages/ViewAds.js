@@ -12,7 +12,7 @@ function ViewAds(props) {
         <div>
             <CustomNavbar/>
             <div className="container h-100 divCenterScreen">
-                <div className="row h-100 justify-content-center align-items-center">
+                <div className="row h-100 justify-content-center align-items-center" style={{marginTop:'100px'}}>
                 <div className="container">
                     <div className="row">
                         <div> 

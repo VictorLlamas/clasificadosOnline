@@ -5,7 +5,7 @@ import ViewAds from '../../pages/ViewAds'
 
 function ResultCard(props){
         return(
-            <div className="card float-left" style={{width:'18rem', marginTop:'12px', marginLeft:'3%'}}>
+            <div className="card float-left" style={{width:'18rem',maxWidth:'18rem', marginTop:'12px', marginLeft:'3%'}}>
                 <img className="card-img-top" src={props.data.images[0]} alt='property'/>
                 <div className="card-body">
                     <h5 className="card-title">Se {props.data.transactionType} {props.data.propertyType} en colonia {props.data.neighborhood}</h5>
