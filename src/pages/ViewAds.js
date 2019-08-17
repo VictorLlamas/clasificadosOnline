@@ -6,8 +6,8 @@ import {ReactComponent as Levels} from '../images/levels.svg'
 import {ReactComponent as ParkingLots} from '../images/parking_lots.svg'
  
 function ViewAds(props) {
-    console.log(props.location.state)
     const data = props.location.state.data
+    console.log(data.images)
     return (
         <div>
             <CustomNavbar/>
@@ -27,8 +27,8 @@ function ViewAds(props) {
                 <div id="carouselControls" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                             {data.images.map((image,key) => (
-                                <div key={key} className="carousel-item"> 
-                                    <img key={key} src={image} className="d-block w-100" alt={`property${key}`}/>
+                                <div key={key} className="carousel-item active" > 
+                                    <img key={key} src={data.images[key]} className="d-block w-100 imagenes" alt={`property${key}`}/>
                                 </div>
                             ))}
                     </div>

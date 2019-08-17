@@ -29,7 +29,7 @@ class SearchResults extends Component {
     cards (){
         if(this.state.message === 'undefined' || this.state.message.length === 0){
             return(
-                <h4>No data found</h4>
+                <h4>No se encontraron registros</h4>
             )
         }else{
             return(

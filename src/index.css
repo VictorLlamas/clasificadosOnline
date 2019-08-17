@@ -31,3 +31,7 @@ html {
   .btn-toolbar{
     margin-bottom: 1.5em;
   }
+
+  .imagenes{
+    height: 550px;
+  }
